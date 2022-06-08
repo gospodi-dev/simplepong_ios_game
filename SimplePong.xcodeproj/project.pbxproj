@@ -21,6 +21,7 @@
 		CC96AD672850D63C00F916BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC96AD662850D63C00F916BD /* LaunchScreen.storyboard */; };
 		CC96AD6A2850D6E700F916BD /* CGPoint+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC96AD692850D6E700F916BD /* CGPoint+Utils.swift */; };
 		CC96AD6C2850D70C00F916BD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC96AD6B2850D70C00F916BD /* Constants.swift */; };
+		CC96AD6E2850D74700F916BD /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC96AD6D2850D74700F916BD /* Sound.swift */; };
 		CCDEC3C0284FD59A0034851B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDEC3BF284FD59A0034851B /* AppDelegate.swift */; };
 		CCDEC3C2284FD59A0034851B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDEC3C1284FD59A0034851B /* SceneDelegate.swift */; };
 		CCDEC3C4284FD59A0034851B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDEC3C3284FD59A0034851B /* ViewController.swift */; };
@@ -41,6 +42,7 @@
 		CC96AD662850D63C00F916BD /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC96AD692850D6E700F916BD /* CGPoint+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGPoint+Utils.swift"; sourceTree = "<group>"; };
 		CC96AD6B2850D70C00F916BD /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CC96AD6D2850D74700F916BD /* Sound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
 		CCDEC3BC284FD59A0034851B /* SimplePong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimplePong.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCDEC3BF284FD59A0034851B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCDEC3C1284FD59A0034851B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 			children = (
 				CC96AD692850D6E700F916BD /* CGPoint+Utils.swift */,
 				CC96AD6B2850D70C00F916BD /* Constants.swift */,
+				CC96AD6D2850D74700F916BD /* Sound.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCDEC3C4284FD59A0034851B /* ViewController.swift in Sources */,
+				CC96AD6E2850D74700F916BD /* Sound.swift in Sources */,
 				CC96AD632850D4F500F916BD /* ViewController+UIKitDynamics.swift in Sources */,
 				CC96AD5F2850D42900F916BD /* ViewController+GestureHandling.swift in Sources */,
 				CCDEC3C0284FD59A0034851B /* AppDelegate.swift in Sources */,
