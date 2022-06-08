@@ -73,7 +73,7 @@ extension ViewController {
 }
 
 // NOTE: Это расширение позволяет отслеживать события проигрывателей звука
-extension PongViewController: AVAudioPlayerDelegate {
+extension ViewController: AVAudioPlayerDelegate {
 
     /// Эта функция вызывается, когда проигрыватель завершил воспроизведение звука
     func audioPlayerDidFinishPlaying(
