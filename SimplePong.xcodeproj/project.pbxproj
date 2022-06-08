@@ -15,6 +15,7 @@
 		CC96AD582850CD7300F916BD /* hit-sound-mid.wav in Resources */ = {isa = PBXBuildFile; fileRef = CC96AD522850CD7300F916BD /* hit-sound-mid.wav */; };
 		CC96AD5B2850D21B00F916BD /* ViewController+BallHit.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC96AD5A2850D21B00F916BD /* ViewController+BallHit.swift */; };
 		CC96AD5D2850D2DD00F916BD /* ViewController+EnemyPaddleBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC96AD5C2850D2DD00F916BD /* ViewController+EnemyPaddleBehavior.swift */; };
+		CC96AD5F2850D42900F916BD /* ViewController+GestureHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC96AD5E2850D42900F916BD /* ViewController+GestureHandling.swift */; };
 		CCDEC3C0284FD59A0034851B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDEC3BF284FD59A0034851B /* AppDelegate.swift */; };
 		CCDEC3C2284FD59A0034851B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDEC3C1284FD59A0034851B /* SceneDelegate.swift */; };
 		CCDEC3C4284FD59A0034851B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDEC3C3284FD59A0034851B /* ViewController.swift */; };
@@ -32,6 +33,7 @@
 		CC96AD522850CD7300F916BD /* hit-sound-mid.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "hit-sound-mid.wav"; sourceTree = "<group>"; };
 		CC96AD5A2850D21B00F916BD /* ViewController+BallHit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+BallHit.swift"; sourceTree = "<group>"; };
 		CC96AD5C2850D2DD00F916BD /* ViewController+EnemyPaddleBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+EnemyPaddleBehavior.swift"; sourceTree = "<group>"; };
+		CC96AD5E2850D42900F916BD /* ViewController+GestureHandling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+GestureHandling.swift"; sourceTree = "<group>"; };
 		CCDEC3BC284FD59A0034851B /* SimplePong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimplePong.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCDEC3BF284FD59A0034851B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCDEC3C1284FD59A0034851B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 			children = (
 				CC96AD5A2850D21B00F916BD /* ViewController+BallHit.swift */,
 				CC96AD5C2850D2DD00F916BD /* ViewController+EnemyPaddleBehavior.swift */,
+				CC96AD5E2850D42900F916BD /* ViewController+GestureHandling.swift */,
 			);
 			path = ViewControllerExtensions;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCDEC3C4284FD59A0034851B /* ViewController.swift in Sources */,
+				CC96AD5F2850D42900F916BD /* ViewController+GestureHandling.swift in Sources */,
 				CCDEC3C0284FD59A0034851B /* AppDelegate.swift in Sources */,
 				CC96AD5B2850D21B00F916BD /* ViewController+BallHit.swift in Sources */,
 				CCDEC3C2284FD59A0034851B /* SceneDelegate.swift in Sources */,
