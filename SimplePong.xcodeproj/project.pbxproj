@@ -18,12 +18,10 @@
 		CC96AD5F2850D42900F916BD /* ViewController+GestureHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC96AD5E2850D42900F916BD /* ViewController+GestureHandling.swift */; };
 		CC96AD612850D4A700F916BD /* ViewController+LaunchBall.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC96AD602850D4A700F916BD /* ViewController+LaunchBall.swift */; };
 		CC96AD632850D4F500F916BD /* ViewController+UIKitDynamics.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC96AD622850D4F500F916BD /* ViewController+UIKitDynamics.swift */; };
+		CC96AD672850D63C00F916BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC96AD662850D63C00F916BD /* LaunchScreen.storyboard */; };
 		CCDEC3C0284FD59A0034851B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDEC3BF284FD59A0034851B /* AppDelegate.swift */; };
 		CCDEC3C2284FD59A0034851B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDEC3C1284FD59A0034851B /* SceneDelegate.swift */; };
 		CCDEC3C4284FD59A0034851B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDEC3C3284FD59A0034851B /* ViewController.swift */; };
-		CCDEC3C7284FD59A0034851B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCDEC3C5284FD59A0034851B /* Main.storyboard */; };
-		CCDEC3C9284FD59D0034851B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCDEC3C8284FD59D0034851B /* Assets.xcassets */; };
-		CCDEC3CC284FD59D0034851B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCDEC3CA284FD59D0034851B /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,13 +36,11 @@
 		CC96AD5E2850D42900F916BD /* ViewController+GestureHandling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+GestureHandling.swift"; sourceTree = "<group>"; };
 		CC96AD602850D4A700F916BD /* ViewController+LaunchBall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+LaunchBall.swift"; sourceTree = "<group>"; };
 		CC96AD622850D4F500F916BD /* ViewController+UIKitDynamics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+UIKitDynamics.swift"; sourceTree = "<group>"; };
+		CC96AD662850D63C00F916BD /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CCDEC3BC284FD59A0034851B /* SimplePong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimplePong.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCDEC3BF284FD59A0034851B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCDEC3C1284FD59A0034851B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CCDEC3C3284FD59A0034851B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CCDEC3C6284FD59A0034851B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CCDEC3C8284FD59D0034851B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CCDEC3CB284FD59D0034851B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CCDEC3CD284FD59D0034851B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,6 +88,15 @@
 			path = ViewControllerExtensions;
 			sourceTree = "<group>";
 		};
+		CC96AD652850D59600F916BD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC96AD662850D63C00F916BD /* LaunchScreen.storyboard */,
+				CCDEC3CD284FD59D0034851B /* Info.plist */,
+			);
+			name = "Support Files";
+			sourceTree = "<group>";
+		};
 		CCDEC3B3284FD59A0034851B = {
 			isa = PBXGroup;
 			children = (
@@ -111,14 +116,11 @@
 		CCDEC3BE284FD59A0034851B /* SimplePong */ = {
 			isa = PBXGroup;
 			children = (
-				CC96AD592850D1BB00F916BD /* ViewControllerExtensions */,
 				CCDEC3BF284FD59A0034851B /* AppDelegate.swift */,
 				CCDEC3C1284FD59A0034851B /* SceneDelegate.swift */,
 				CCDEC3C3284FD59A0034851B /* ViewController.swift */,
-				CCDEC3C5284FD59A0034851B /* Main.storyboard */,
-				CCDEC3C8284FD59D0034851B /* Assets.xcassets */,
-				CCDEC3CA284FD59D0034851B /* LaunchScreen.storyboard */,
-				CCDEC3CD284FD59D0034851B /* Info.plist */,
+				CC96AD592850D1BB00F916BD /* ViewControllerExtensions */,
+				CC96AD652850D59600F916BD /* Support Files */,
 				CC96AD4B2850CD7300F916BD /* Resources */,
 			);
 			path = SimplePong;
@@ -182,14 +184,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCDEC3CC284FD59D0034851B /* LaunchScreen.storyboard in Resources */,
 				CC96AD542850CD7300F916BD /* Main.storyboard in Resources */,
 				CC96AD562850CD7300F916BD /* hit-sound-high.wav in Resources */,
 				CC96AD552850CD7300F916BD /* background.wav in Resources */,
-				CCDEC3C9284FD59D0034851B /* Assets.xcassets in Resources */,
 				CC96AD582850CD7300F916BD /* hit-sound-mid.wav in Resources */,
+				CC96AD672850D63C00F916BD /* LaunchScreen.storyboard in Resources */,
 				CC96AD532850CD7300F916BD /* Assets.xcassets in Resources */,
-				CCDEC3C7284FD59A0034851B /* Main.storyboard in Resources */,
 				CC96AD572850CD7300F916BD /* hit-sound-low.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,25 +213,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		CCDEC3C5284FD59A0034851B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CCDEC3C6284FD59A0034851B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		CCDEC3CA284FD59D0034851B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CCDEC3CB284FD59D0034851B /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		CCDEC3CE284FD59D0034851B /* Debug */ = {
