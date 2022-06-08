@@ -135,10 +135,10 @@
 				CCDEC3BF284FD59A0034851B /* AppDelegate.swift */,
 				CCDEC3C1284FD59A0034851B /* SceneDelegate.swift */,
 				CCDEC3C3284FD59A0034851B /* ViewController.swift */,
-				CC96AD682850D6B000F916BD /* Utils */,
 				CC96AD592850D1BB00F916BD /* ViewControllerExtensions */,
 				CC96AD652850D59600F916BD /* Support Files */,
 				CC96AD4B2850CD7300F916BD /* Resources */,
+				CC96AD682850D6B000F916BD /* Utils */,
 			);
 			path = SimplePong;
 			sourceTree = "<group>";
